@@ -517,12 +517,17 @@
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------Pagina Blog ----------------- */
+
+
 /* Alinhamento do texto e imagem primeiro conteudo pagina blog*/
+
+
 .blogparte1 {
     margin-top: 3%;
     display: flex;
     justify-content: center;
 }
+
 /* Definições titulo primeiro conteudo pagina blog*/
 .itensblogparte1-1 h1 {
     max-width: 500px;
@@ -537,6 +542,7 @@
     color: #009688;
 
 }
+
 /* Definições paragrafo primeiro conteudo pagina blog*/
 .itensblogparte1-1 p {
     margin-top: 10%;
@@ -552,6 +558,7 @@
 
     color: #000000;
 }
+
 /* Definições imagens primeiro conteudo pagina blog*/
 .itensblogparte1-1 img {
     width: 405px;
@@ -559,48 +566,51 @@
 }
 
 /* Alinhamento do conteudo todo do segundo conteudo pagina blog*/
-.blogparte2{
-    margin-bottom:20%;
+.blogparte2 {
+    margin-bottom: 20%;
     margin-top: 10%;
 
 }
+
 /* Alinhamento das img  do segundo conteudo pagina blog*/
-.itensblogparte1-2{
+.itensblogparte1-2 {
     margin-top: 10%;
     display: flex;
     justify-content: space-around;
 }
+
 /* Alinhamento dos titulos  do segundo conteudo pagina blog*/
-.itensblogparte1-3{
+.itensblogparte1-3 {
     display: flex;
     justify-content: space-around;
 }
 
 /* Alinhamento dos paragrafos  do segundo conteudo pagina blog*/
-.itensblogparte1-4{
+.itensblogparte1-4 {
     display: flex;
     justify-content: space-around;
 }
+
 /* Definições das img  do segundo conteudo pagina blog*/
-.itensblogparte1-2 img{
+.itensblogparte1-2 img {
     background: #C4C4C4;
     width: 518px;
     height: 259px;
 }
 
 /* Definições dos titulos  do segundo conteudo pagina blog*/
-.itensblogparte1-3 h1{
+.itensblogparte1-3 h1 {
     margin-left: -4.5%;
     max-width: 450px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;   
+    font-size: 30px;
     color: #FF4081;
 }
 
 /* Definições dos paragrafos  do segundo conteudo pagina blog*/
-.itensblogparte1-4 p{
+.itensblogparte1-4 p {
     margin-left: -4%;
     max-width: 450px;
     font-family: 'Ubuntu';
@@ -614,10 +624,66 @@
 
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------Pagina Contato ----------------- */
 
 
+/* Alinhamento do texto e imagem primeiro conteudo pagina Contato*/
+
+.contatoparte1 {
+    display: flex;
+    justify-content: space-around;
+}
 
 
+#msg {
+    height: 193px;
+}
+
+.itenscontatoparte1-1 h1 {
+    margin-left: 9%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+
+}
+
+.itenscontatoparte1-2 input {
+    margin-top: 1%;
+    width: 493px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+.itenscontatoparte1-2 button {
+    margin-top: 2%;
+    border: 1px solid #FFFFFF;
+    background: #FF4081;
+    border-radius: 50px;
+    width: 108px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.itenscontatoparte1-3 img {
+    width: 544px;
+    height: 544px;
+    margin-top: -25%;
+
+}
 
 
 
