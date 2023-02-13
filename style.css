@@ -513,6 +513,114 @@
 
 }
 
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------Pagina Blog ----------------- */
+/* Alinhamento do texto e imagem primeiro conteudo pagina blog*/
+.blogparte1 {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+/* Definições titulo primeiro conteudo pagina blog*/
+.itensblogparte1-1 h1 {
+    max-width: 500px;
+    margin-top: 15%;
+    margin-right: 3%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+
+    color: #009688;
+
+}
+/* Definições paragrafo primeiro conteudo pagina blog*/
+.itensblogparte1-1 p {
+    margin-top: 10%;
+    max-width: 450px;
+    margin-right: 3%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+/* Definições imagens primeiro conteudo pagina blog*/
+.itensblogparte1-1 img {
+    width: 405px;
+    height: 405px;
+}
+
+/* Alinhamento do conteudo todo do segundo conteudo pagina blog*/
+.blogparte2{
+    margin-bottom:20%;
+    margin-top: 10%;
+
+}
+/* Alinhamento das img  do segundo conteudo pagina blog*/
+.itensblogparte1-2{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+/* Alinhamento dos titulos  do segundo conteudo pagina blog*/
+.itensblogparte1-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Alinhamento dos paragrafos  do segundo conteudo pagina blog*/
+.itensblogparte1-4{
+    display: flex;
+    justify-content: space-around;
+}
+/* Definições das img  do segundo conteudo pagina blog*/
+.itensblogparte1-2 img{
+    background: #C4C4C4;
+    width: 518px;
+    height: 259px;
+}
+
+/* Definições dos titulos  do segundo conteudo pagina blog*/
+.itensblogparte1-3 h1{
+    margin-left: -4.5%;
+    max-width: 450px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;   
+    color: #FF4081;
+}
+
+/* Definições dos paragrafos  do segundo conteudo pagina blog*/
+.itensblogparte1-4 p{
+    margin-left: -4%;
+    max-width: 450px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* cor de fundo do rodape */
 .menu2 {
     margin-top: 5%;
@@ -563,11 +671,13 @@
     line-height: 23px;
     color: #FDFDFD;
 }
+
 /* Definição posicionamento botões rodapé */
 .itensmenu2-2 {
     margin-top: 3%;
     margin-right: 7%;
 }
+
 /* Definição estilo botões rodapé */
 .itensmenu2-2 button {
     width: 289px;
@@ -576,6 +686,7 @@
     border-radius: 62px;
     background: #419488;
 }
+
 /* Definição texto botões rodapé */
 .itensmenu2-2 button a {
     text-decoration: none;
