@@ -628,18 +628,18 @@
 /* -------------------Pagina Contato ----------------- */
 
 
-/* Alinhamento do texto e imagem primeiro conteudo pagina Contato*/
+/* Alinhamento do texto e imagem segundo conteudo pagina Contato*/
 
 .contatoparte1 {
     display: flex;
     justify-content: space-around;
 }
-
+/* Alinhamento do from msg do segundo conteudo pagina Contato*/
 
 #msg {
     height: 193px;
 }
-
+/* Definições do titulo segundo conteudo pagina Contato*/
 .itenscontatoparte1-1 h1 {
     margin-left: 9%;
     margin-top: 7%;
@@ -652,7 +652,7 @@
     color: #FF4081;
 
 }
-
+/* Definições do input segundo conteudo pagina Contato*/
 .itenscontatoparte1-2 input {
     margin-top: 1%;
     width: 493px;
@@ -661,7 +661,7 @@
     border: 1px solid #686868;
     border-radius: 7px;
 }
-
+/* Definições do botão segundo conteudo pagina Contato*/
 .itenscontatoparte1-2 button {
     margin-top: 2%;
     border: 1px solid #FFFFFF;
@@ -677,13 +677,17 @@
     color: #FFFFFF;
 
 }
-
+/* Definições da img segundo conteudo pagina Contato*/
 .itenscontatoparte1-3 img {
     width: 544px;
     height: 544px;
     margin-top: -25%;
 
 }
+
+
+
+
 
 
 
