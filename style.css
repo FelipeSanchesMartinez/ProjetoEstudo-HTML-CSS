@@ -1141,17 +1141,26 @@
 
 @media (max-width:600px) {
     /*     Responsividade menu header*/
-
+.menu1{
+    height: 150px;
+}
     .itensmenu1 {
         align-items: center;
         flex-direction: column;
         font-size: 5px;
         margin-left: -1%;
+        margin: 0;
     }
 
     .itensmenu1 ul li a {
         padding: 18px;
+       margin: 0;
+       
 
+    }
+    .itensmenu1 ul {
+      margin-top: -15%;
+   
     }
 
     .itensmenu1 img {
@@ -1272,7 +1281,7 @@
 
     }
 
-    /*     Responsividade  pagina curso */
+    /*     Responsividade  pagina cursos */
     .part1 {
         display: block;
     }
@@ -1348,7 +1357,7 @@
     }
 
 
-    /*     Responsividade  pagina cursos */
+    /*     Responsividade  pagina curso */
 
     .initial {
         display: block;
@@ -1366,7 +1375,7 @@
 
     .containedbody p span {
         text-align: center;
-        margin-left: 38%;
+        margin-left: 35%;
     }
 
     .containedbody p {
@@ -1381,7 +1390,7 @@
     }
 
     #text {
-        max-width: 550px;
+        max-width: 350px;
         text-align: justify;
         margin-left: 10%;
     }
@@ -1410,14 +1419,14 @@
 
 }
 
-
+/* 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------Ajuste de Responsividade 800px ----------------- */
-@media (max-width:900px) {
+/* @media (max-width:900px) {
 
 
     /*     Responsividade  pagina index */
-    .parte1 {
+   /* .parte1 {
         display: block;
         margin-left: 20%;
 
@@ -1449,7 +1458,7 @@
 
 
     /*     Responsividade  pagina Blog */
-    .itensblogparte1-2 img {
+   /*  .itensblogparte1-2 img {
         margin: 2%;
         width: 350px;
         height: 250px;
@@ -1472,7 +1481,7 @@
 
     /*     Responsividade  pagina Post */
 
-
+/* 
     .itenspostparte1-1 img {
         width: 70%;
         height: 50%;
@@ -1493,7 +1502,7 @@
 
 
     /*     Responsividade  pagina cursos */
-
+/* 
     .itensblogparte1-2 img {
         margin: 2%;
         width: 150px;
@@ -1514,7 +1523,7 @@
     }
 
     /*     Responsividade  pagina contato */
-
+/* 
     .contatoparte1 {
         display: block;
     }
@@ -1543,7 +1552,7 @@
 
     /*     Responsividade  pagina curso */
 
-    .initial {
+   /*  .initial {
         display: flex;
         justify-content: center;
     }
@@ -1587,6 +1596,4 @@
     }
 
     /*     Responsividade  header */
-
-
-}
+    
