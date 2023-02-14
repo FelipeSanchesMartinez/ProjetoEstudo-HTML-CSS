@@ -830,17 +830,17 @@
 }
 
 /**separação de cor da parte de vídeos - Página Curso**/
-.todosvideos{
-    margin-top: 5%; 
+.todosvideos {
+    margin-top: 5%;
     background-color: #f7f7f7;
     padding: 75px;
-    
+
 }
 
 .containedbody {
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -851,7 +851,7 @@
 }
 
 .containedbody p {
- margin-left: 5%;
+    margin-left: 5%;
     max-width: 500px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -870,7 +870,8 @@
     line-height: 40px;
     color: #FF4081;
 }
-.border p{
+
+.border p {
     margin-bottom: 5%;
     display: flex;
     justify-content: center;
@@ -880,9 +881,93 @@
     width: 100%;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------Pagina Cursos ----------------- */
 
 
+.title {
+    margin-top: 5%;
+    margin-left: 5%;
 
+}
+
+.title h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+
+}
+
+.title p {
+    
+    margin-bottom: 8%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+}
+
+.part1 img {
+    width: 380px;
+    height: 381px;
+}
+
+.part1 p {
+margin-left: 3%;
+ max-width: 724px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.part1 p span {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+color: #FF4081;
+}
+
+
+.part1 p button{
+    text-decoration: none;
+    width: 233px;
+    height: 51px;
+    border: 2px solid white;
+    background: #419488;
+    border-radius: 62px;
+}
+
+.part1 p button a {
+text-decoration: none;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#img3{
+    width: 380px;
+    height: 498px;
+}
 
 
 
@@ -1192,5 +1277,13 @@
         margin-top: 0;
     }
 
+    /*     Responsividade quarto conteudo pagina index */
+    .parte4-1 img {
+        width: 193px;
+        height: 80px;
+    }
 
+    .parte4-2 p {
+        max-width: 80px;
+    }
 }
