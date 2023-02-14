@@ -196,7 +196,7 @@
     margin-top: 10%;
     margin-bottom: 50%;
     margin-left: 10%;
-    border: 2px solid  #F7F7F7;
+    border: 2px solid #F7F7F7;
 }
 
 /* definições do texto do primeiro botão do segundo conteudo */
@@ -257,7 +257,7 @@
     margin-top: 16%;
     margin-bottom: 50%;
     margin-left: 8%;
-    border: 2px solid  #F7F7F7;
+    border: 2px solid #F7F7F7;
 }
 
 /* definições do texto do segundo botão do segundo conteudo */
@@ -318,7 +318,7 @@
     margin-top: 15.5%;
     margin-bottom: 50%;
     margin-left: 8%;
-    border: 2px solid  #F7F7F7;
+    border: 2px solid #F7F7F7;
 }
 
 /* definições do texto do terceiro botão do segundo conteudo */
@@ -834,6 +834,7 @@
     padding: 75px;
 
 }
+
 /**Alinhamento elementos  - Página Curso**/
 .containedbody {
     display: flex;
@@ -841,12 +842,14 @@
 
 
 }
+
 /**definição de tamanho do iframe vídeos - Página Curso**/
 .containedbody iframe {
 
     width: 462px;
     height: 261px;
 }
+
 /**Definições do texto - Página Curso**/
 .containedbody p {
     margin-left: 5%;
@@ -859,6 +862,7 @@
     color: #000000;
 
 }
+
 /**Definições do titulo - Página Curso**/
 .containedbody p span {
     font-family: 'Ubuntu';
@@ -868,6 +872,7 @@
     line-height: 40px;
     color: #FF4081;
 }
+
 /**Definições da linha separadora- Página Curso**/
 .border p {
     margin-bottom: 5%;
@@ -888,6 +893,7 @@
     margin-left: 5%;
 
 }
+
 /**Definições do titulo  - Página Cursos**/
 .title h1 {
     font-family: 'Ubuntu';
@@ -899,9 +905,10 @@
     color: #FF4081;
 
 }
+
 /**Definições do texto - Página Cursos**/
 .title p {
-    
+
     margin-bottom: 8%;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -910,39 +917,43 @@
     line-height: 23px;
     color: #555555;
 }
+
 /**Alinhamento do conteudo - Página Cursos**/
 .part1 {
     display: flex;
     justify-content: center;
 }
+
 /**Definições da imagem - Página Cursos**/
 .part1 img {
     width: 380px;
     height: 381px;
 }
+
 /**Definições do texto - Página Cursos**/
 .part1 p {
-margin-left: 3%;
- max-width: 724px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
+    margin-left: 3%;
+    max-width: 724px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
 }
+
 /**Definições do titulo - Página Cursos**/
 .part1 p span {
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 40px;
-color: #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
 }
 
 /**Definições do botão - Página Cursos**/
-.part1 p button{
+.part1 p button {
     text-decoration: none;
     width: 233px;
     height: 51px;
@@ -950,19 +961,21 @@ color: #FF4081;
     background: #419488;
     border-radius: 62px;
 }
+
 /**Definições do link do botão - Página Cursos**/
 .part1 p button a {
-text-decoration: none;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
 }
+
 /**Definições da imagem maior - Página Cursos**/
-#img3{
+#img3 {
     width: 380px;
     height: 498px;
 }
@@ -1119,7 +1132,7 @@ color: #FFFFFF;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* -------------------Ajuste de Responsividade ----------------- */
+/* -------------------Ajuste de Responsividade 600px ----------------- */
 
 @media (max-width:600px) {
     /*     Responsividade menu header*/
@@ -1143,9 +1156,11 @@ color: #FFFFFF;
     }
 
     /*     Responsividade menu footer */
-    .menu2 {
-        height: 100vw;
-    }
+
+.menu2{
+    width: 100vw;
+    height: 50vh;
+}
 
     .itensmenu2-1 {
         display: grid;
@@ -1240,6 +1255,7 @@ color: #FFFFFF;
         margin-top: 0;
     }
 
+
     /*     Responsividade quarto conteudo pagina index */
     .parte4-1 img {
         width: 193px;
@@ -1248,5 +1264,322 @@ color: #FFFFFF;
 
     .parte4-2 p {
         max-width: 80px;
+
     }
+
+    /*     Responsividade  pagina curso */
+    .part1 {
+        display: block;
+    }
+
+    .part1 p button {
+        margin-left: 18%;
+    }
+
+    /*     Responsividade primeira parte pagina Blog */
+
+    .blogparte1 {
+        display: block;
+    }
+
+    .itensblogparte1-1 h1 {
+        max-width: 350px;
+        text-align: center;
+        margin-left: 4%;
+    }
+
+    .itensblogparte1-1 p {
+        max-width: 350px;
+        text-align: center;
+        margin-left: 4%;
+    }
+
+    /*     Responsividade segunda parte pagina Blog */
+
+    .itensblogparte1-2 img {
+        margin: 2%;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .itensblogparte1-4 p {
+        margin: auto;
+        max-width: 40%;
+        text-align: center;
+    }
+
+    .itensblogparte1-3 h1 {
+        text-align: center;
+        margin: auto;
+        max-width: 50%;
+    }
+
+    /*     Responsividade  pagina contato */
+
+    .contatoparte1 {
+        display: block;
+    }
+
+    #msg {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .itenscontatoparte1-2 input {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .itenscontatoparte1-3 img {
+        margin-top: 10%;
+        margin-left: 23%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .itenscontatoparte1-2 button {
+        margin-left: 35%;
+    }
+
+
+    /*     Responsividade  pagina cursos */
+
+    .initial {
+        display: block;
+    }
+
+    .containedbody {
+        margin-left: -20%;
+        display: block;
+
+    }
+
+    .containedbody iframe {
+        width: 120%;
+    }
+
+    .containedbody p span {
+        text-align: center;
+        margin-left: 38%;
+    }
+
+    .containedbody p {
+        text-align: justify;
+
+    }
+
+    #title {
+
+        text-align: justify;
+        margin-left: 10%;
+    }
+
+    #text {
+        max-width: 550px;
+        text-align: justify;
+        margin-left: 10%;
+    }
+
+
+
+    /*     Responsividade  pagina post */
+
+    .itenspostparte1-1 img {
+        width: 70%;
+        height: 50%;
+
+    }
+
+    .itenspostparte1-1 p {
+        text-align: center;
+        max-width: 260px;
+    }
+
+    .itenspostparte1-1 h3 {
+        text-align: center;
+        max-width: 260px;
+    }
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------Ajuste de Responsividade 800px ----------------- */
+@media (max-width:900px) {
+
+
+    /*     Responsividade  pagina index */
+    .parte1 {
+        display: block;
+        margin-left: 20%;
+
+    }
+
+    .itenparte2-1 button {
+        margin-top: 20%;
+
+    }
+    .itenparte2-2 button {
+        margin-top: 25%;
+
+    }   .itenparte2-3 button {
+        margin-top: 14.5%;
+
+    }
+
+    .itenparte2-1 img {
+        margin-top: 25%;
+
+    }
+    .itenparte2-2 img {
+        margin-top: 27%;
+
+    }   .itenparte2-3 img {
+        margin-top: 26.5%;
+
+    }
+
+
+    /*     Responsividade  pagina Blog */
+    .itensblogparte1-2 img {
+        margin: 2%;
+        width: 350px;
+        height: 250px;
+
+    }
+
+    .itensblogparte1-4 p {
+        margin: auto;
+        max-width: 40%;
+        text-align: center;
+    }
+
+    .itensblogparte1-3 h1 {
+        text-align: center;
+        margin: auto;
+        max-width: 50%;
+    }
+
+
+
+    /*     Responsividade  pagina Post */
+
+
+    .itenspostparte1-1 img {
+        width: 70%;
+        height: 50%;
+
+    }
+
+    .itenspostparte1-1 p {
+        text-align: center;
+        max-width: 560px;
+    }
+
+    .itenspostparte1-1 h3 {
+        text-align: center;
+        max-width: 560px;
+    }
+
+
+
+
+    /*     Responsividade  pagina cursos */
+
+    .itensblogparte1-2 img {
+        margin: 2%;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .itensblogparte1-4 p {
+        margin: auto;
+        max-width: 40%;
+        text-align: center;
+    }
+
+    .itensblogparte1-3 h1 {
+        text-align: center;
+        margin: auto;
+        max-width: 50%;
+    }
+
+    /*     Responsividade  pagina contato */
+
+    .contatoparte1 {
+        display: block;
+    }
+
+    #msg {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .itenscontatoparte1-2 input {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .itenscontatoparte1-3 img {
+        margin-top: 10%;
+        margin-left: 23%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .itenscontatoparte1-2 button {
+        margin-left: 35%;
+    } 
+
+
+    /*     Responsividade  pagina curso */
+
+    .initial {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containedbody {
+        margin-left: -20%;
+
+
+    }
+
+    .containedbody iframe {
+        width: 120%;
+        margin-left: 10%;
+    }
+
+    .containedbody p span {
+        text-align: center;
+
+    }
+
+    .containedbody p {
+        text-align: center;
+
+    }
+
+    #title {
+        max-width: 100%;
+        text-align: center;
+        margin-left: 22%;
+    }
+
+    #text {
+
+        max-width: 100%;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    #img {
+        display: none;
+    }
+
+    /*     Responsividade  rodape */
+
+
 }
