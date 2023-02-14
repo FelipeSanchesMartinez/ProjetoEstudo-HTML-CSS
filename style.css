@@ -52,9 +52,9 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 23px; 
     text-transform: uppercase;
-    padding: 42px;
+     padding: 42px; 
     color: #FDFDFD;
 }
 
@@ -864,4 +864,115 @@
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+
+
+
 }
+ @media (max-width:600px)
+{
+/*     Responsividade menu header*/
+.itensmenu1{
+    align-items: center;
+    flex-direction: column;
+    font-size: 5px;
+    margin-left: -1%;
+}
+.itensmenu1 ul li a{
+    padding: 18px;
+
+}
+.itensmenu1 img{
+    display: flex;
+    justify-content: center;
+
+}
+/*     Responsividade menu footer */
+.menu2{
+    height: 100vw;
+}
+.itensmenu2-1 {
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+.itensmenu2-1 ul li { 
+    margin-left: 50%;
+}
+
+.itensmenu2-2 {
+    margin-top: 0%;
+    margin-left: 17%;
+}
+
+
+
+/*     Responsividade Primeiro conteudo pagina index*/
+
+.parte1 {
+   display: block;
+   margin: 0;
+    
+}
+
+.parte1 img{
+   margin-left: 14%;
+    display: flex;
+    justify-content: center;
+    width:300px ;
+    height: 250px; ;
+    margin-bottom: 45%;
+     
+ }
+ .itenpart1 h1{
+    margin-left: 25%;
+    margin-bottom: 30%;
+    text-align: center;
+    font-size: 40px;
+    max-width: 550px;
+ }
+
+ .itenpart1 button {
+    margin-left: 9.5%;
+ }
+
+/*     Responsividade segundo conteudo pagina index */
+
+.parte2 {
+   
+    align-items: center;
+    display: block;
+    margin-top: 0;
+}
+.itenparte2-1 img{
+    margin-left: 13%;
+    align-items: center;
+    margin-top: 0;
+}
+.itenparte2-2 img{
+    margin-left: 13%;
+    align-items: center;
+    margin-top: 0;
+}
+.itenparte2-3 img{
+    margin-left: 25%;
+    align-items: center;
+    margin-top: 0;
+}
+.itenparte2-1 button {
+    margin-left: 20%;
+    align-items: center;
+    margin-top: 0;
+}
+.itenparte2-2 button {
+    margin-left: 20%;
+    align-items: center;
+    margin-top: 0;
+}
+.itenparte2-3 button {
+    margin-left: 20%;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+} 
