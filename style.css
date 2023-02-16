@@ -14,6 +14,7 @@
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
+
 /* alinhamentos da img com o texto do menu */
 .itensmenu1 {
     display: flex;
@@ -30,9 +31,9 @@
 }
 
 .itensmenu1 a {
-    margin-left: -60%;
+    margin-top: 1%;
+    margin-left: 2%;
     width: 280px;
-    height: 100px;
     text-decoration: none;
 }
 
@@ -68,6 +69,11 @@
     margin: 0;
 
 }
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------Pagina Index ----------------- */
 
 /* alinhamentos da img com o texto e botão do primeiro conteudo */
 .parte1 {
@@ -1020,6 +1026,12 @@
     height: 101px;
 }
 
+.itensmenu2-1 a {
+    margin-left: 3%;
+    margin-top: 2%;
+
+}
+
 /* Definições da ul do rodape posição e alinhamento */
 .itensmenu2-1 ul {
     margin-top: 4%;
@@ -1273,13 +1285,9 @@
     .itensmenu1 ul li a {
 
         font-size: small;
-        padding: 30px;
-        align-items: center;
-
-    }
-
-    .itensmenu1 ul {
-        margin-top: -22%;
+        padding: 35px;
+        margin-left: 10%;
+       
 
 
     }
@@ -1289,6 +1297,13 @@
         margin-top: 5%;
 
     }
+
+    .itensmenu1 a {
+
+        margin-bottom: 5%;
+    }
+
+
 
     /*     Responsividade menu footer */
 
